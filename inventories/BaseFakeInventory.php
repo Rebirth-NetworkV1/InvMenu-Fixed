@@ -41,7 +41,7 @@ abstract class BaseFakeInventory extends ContainerInventory{
 	protected $menu;
 
 	/** @var int */
-	protected $default_send_delay = 8; // Keep at current delay! Else it makes /genshop unusable. - DANRULEZ123
+	protected $default_send_delay = 8; // Delay to address the new issue
 
 	/** @var HolderData[] */
 	private $holder_data = [];
